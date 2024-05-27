@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF -8" />
+    <meta name="viewpoint" content="width=device-width, intialise scale=1.0" />
+    <title>Excercise 6</title>
+  </head>
+  <body>
+    <script>
+      function square(a) {
+        return function (b) {
+          return a * b;
+        };
+      }
+      const squareIt = square(5);
+      alert(`The square of 5 is ${squareIt(5)}`);
+    </script>
+     
+  </body>
+</html>
