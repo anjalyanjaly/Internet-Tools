@@ -1,17 +1,17 @@
 {
-  "name": "helloworld",
+  "name": "termproject",
   "version": "1.0.0",
   "description": "Bootstrap and sass setup",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "sass-build": "sass --no-source-map scss:css",
     "sass-watch": "sass --watch --no-source-map scss:css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/toebi"
+    "url": "https://github.com/anjalyanjaly"
   },
-  "author": "Ben Kam",
+  "author": "Anjaly",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^5.3.3",
